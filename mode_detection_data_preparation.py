@@ -323,3 +323,16 @@ def calc_distance_from_transit_stops(table_name = mode_activity_trip, GTFS_stops
     print("The distance btw the origin and destination of each trip are inserted into {0}".format(table_name))
 
 def calc_cumulative_direct_distance():
+    psql_query = """
+        alter table mode_activity_trip add column cumulative_distance double precision;
+        alter table mode_activity_trip add column direct_distance double precision;
+        select b.uid, a.utilisatio, count 
+        count(a.utilisatio) as frequency from  landuse_cmm_immeubles_p_2011 a, mode_activity_trip_cleaned b
+        where st_Distance(a.geom32618, b.d_geom) < 400 and uid = '0002d5c4-af93-4ed0-8e89-e86ce0bc81da'
+        group by b.uid, a.utilisatio order by trip_id, frequency;
+
+
+       """.format(table_name, GTFS_stops_table)
+
+    cur.execute(psql_query)
+    print("The distance btw the origin and destination of each trip are inserted into {0}".format(table_name))
