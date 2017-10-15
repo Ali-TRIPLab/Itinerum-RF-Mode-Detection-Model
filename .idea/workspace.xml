@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad01636f-76cb-49b5-aac1-fb3cbb2bfc31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mode_detection_functions.png" afterPath="$PROJECT_DIR$/mode_detection_functions.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mode_detection_data_preparation.py" afterPath="$PROJECT_DIR$/mode_detection_data_preparation.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="mode_detection_data_preparation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mode_detection_data_preparation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="286" column="10" lean-forward="true" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
+            <state relative-caret-position="595">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -215,7 +215,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -410,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mode_detection_data_preparation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="286" column="10" lean-forward="true" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
+        <state relative-caret-position="595">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>

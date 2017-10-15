@@ -1,30 +1,7 @@
 # Ali Yazdizadeh, July 2017
-import cPickle
-import fiona
-import math
-import threading
-import utm
-import experiments
-from modules import labels
-from pprint import pprint
-
-import foursquare
-from foursquare import Foursquare
-import pprint
-import inspect
-#Ali Yzdizadeh May 2017
-
 import psycopg2
-import pprint
-import numpy
-import time
-import json
-import ijson
-import cPickle as pickle
 
 
-##set connection to psql db
-start_time = time.time()
 #make a con to postgresql database
 #pls change the database, user and password to the correspondence in your system
 conn = psycopg2.connect(database='MtlTrajet', user='postgres', password='postgres')
